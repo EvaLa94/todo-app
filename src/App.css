@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  text-align: center;
+  vertical-align: center;
+  line-height: 15vh;
+  background-color: crimson;
+}
+
+input {
+  padding: 7px;
+}
+
+.add-button {
+  padding: 8px;
+}
+
+ul {
+  text-align: center;
+  vertical-align: center;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+.delete-button,
+.complete-button {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.delete-button:hover {
+  color: crimson;
+}
+
+.complete-button:hover {
+  color: green;
+}
+
+.completed {
+  color: grey;
+  text-decoration: line-through;
+}
